@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASHLYNE'S</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+
+    <div class="logo">TASHLYNE'S</div>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#clothline">Clothline</a></li>
+      <li><a href="#beauty">Beauty</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>TASHLYNE'S</h1>
+
+      <p>Where Beauty Meets Fashion</p>
+
+      <div class="buttons">
+        <button>Shop Collection</button>
+        <button class="outline">Book Appointment</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+
+    <h2>About TASHLYNE'S</h2>
+  
+    <p>
+      TASHLYNE'S is a modern luxury fashion and beauty brand dedicated to empowering confidence, elegance, and individuality. We believe style is not just what you wear, but how you express yourself.
+    </p>
+  
+    <p>
+      Our clothline collection features carefully selected outfits designed for both everyday elegance and special occasions. Each piece reflects sophistication, comfort, and modern fashion trends.
+    </p>
+  
+    <p>
+      Our beauty parlour services are designed to enhance your natural glow offering professional hair styling, makeup artistry, and spa treatments in a relaxing environment.
+    </p>
+  
+    <p>
+      We are committed to quality, affordability, and delivering a premium customer experience both online and in person.
+    </p>
+  
+  </section>
+
+  <!-- CLOTHLINE -->
+  <section id="clothline" class="clothline">
+
+    <h2>Clothline Collection</h2>
+
+    <div class="products">
+
+      <div class="product">
+        <img src="images/dress1.jpg" alt="">
+        <h3>Elegant Dress</h3>
+        <p>KES 2,500</p>
+
+        <a href="https://wa.me/254703206258?text=Hi%20I%20want%20to%20order%20Elegant%20Dress" target="_blank">
+          <button>Order Now</button>
+        </a>
+      </div>
+
+      <div class="product">
+        <img src="images/dress2.jpg" alt="">
+        <h3>Casual Fit</h3>
+        <p>KES 1,800</p>
+
+        <a href="https://wa.me/254703206258?text=Hi%20I%20want%20to%20order%20Casual%20Fit" target="_blank">
+          <button>Order Now</button>
+        </a>
+      </div>
+
+      <div class="product">
+        <img src="images/dress3.jpg" alt="">
+        <h3>Luxury Outfit</h3>
+        <p>KES 3,500</p>
+
+        <a href="https://wa.me/254703206258?text=Hi%20I%20want%20to%20order%20Luxury%20Outfit" target="_blank">
+          <button>Order Now</button>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BEAUTY -->
+  <section id="beauty" class="beauty">
+
+    <h2>Beauty Parlour Services</h2>
+
+    <div class="services">
+
+      <div class="service">
+        <h3>Hair Styling</h3>
+        <p>Luxury hair styling and treatment.</p>
+      </div>
+
+      <div class="service">
+        <h3>Makeup</h3>
+        <p>Professional beauty and glam makeup.</p>
+      </div>
+
+      <div class="service">
+        <h3>Nails & Spa</h3>
+        <p>Premium nail care and spa experience.</p>
+      </div>
+
+    </div>
+
+    <a href="https://wa.me/254703206258?text=Hi%20I%20want%20to%20book%20a%20beauty%20appointment" target="_blank">
+      <button class="beauty-btn">Book Appointment</button>
+    </a>
+
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery">
+
+    <h2>Our Gallery</h2>
+
+    <div class="gallery-images">
+
+      <img src="images/gallery1.jpg" onclick="openImage(this.src)">
+      <img src="images/gallery2.jpg" onclick="openImage(this.src)">
+      <img src="images/gallery3.jpg" onclick="openImage(this.src)">
+      <img src="images/gallery4.jpg" onclick="openImage(this.src)">
+
+    </div>
+
+  </section>
+
+  <!-- IMAGE POPUP -->
+  <div class="image-popup" id="imagePopup">
+
+    <span class="close-popup" onclick="closeImage()">×</span>
+
+    <img id="popupImage">
+
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Email: hello.lynenexus@gmail.com</p>
+    <p>Phone: +254 703 206 258</p>
+
+    <div class="social-icons">
+
+      <a href="https://instagram.com/saumu_mutanu" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://tiktok.com/_tee001" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+
+    </div>
+
+    <p>Location: Nairobi, Kenya</p>
+
+    <a href="https://wa.me/254703206258?text=Hi%20TASHLYNE'S%2C%20I%20want%20to%20make%20an%20order" target="_blank">
+      <button>Order on WhatsApp</button>
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 TASHLYNE'S. All Rights Reserved.</p>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/254703206258?text=Hi%20TASHLYNE'S%2C%20I%20want%20to%20make%20an%20order"
+     class="whatsapp-float"
+     target="_blank">
+     💬
+  </a>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
