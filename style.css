@@ -66,7 +66,7 @@ body{
   align-items:center;
   text-align:center;
   position:relative;
-  animation:slider 15s infinite;
+  animation:slider 25s infinite;
 }
 
 @keyframes slider{
@@ -75,12 +75,20 @@ body{
     background-image:url('images/hero1.jpg');
   }
 
-  33%{
+  20%{
     background-image:url('images/hero2.jpg');
   }
 
-  66%{
+  40%{
     background-image:url('images/hero3.jpg');
+  }
+
+  60%{
+    background-image:url('images/hero4.jpg');
+  }
+
+  80%{
+    background-image:url('images/hero5.jpg');
   }
 
   100%{
